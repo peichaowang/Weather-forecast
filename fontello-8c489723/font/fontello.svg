@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2021 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="cloud" unicode="&#xe800;" d="M1071 207q0-89-62-151t-152-63h-607q-103 0-177 73t-73 177q0 74 40 135t104 91q-1 16-1 24 0 118 84 202t202 84q88 0 159-49t105-129q39 35 93 35 59 0 101-42t42-101q0-42-23-77 72-17 119-75t46-134z" horiz-adv-x="1071.4" />
+
+<glyph glyph-name="users" unicode="&#xe801;" d="M860 533q0-108-77-184t-184-76-184 76-76 184 76 183 184 77 184-77 77-183z m286-183q0-54-38-92t-93-38-92 38-38 92 38 92 92 38 93-38 38-92z m-131-161q80 0 131-34t52-79q0-22-53-40t-130-17q-42 0-82 6 0-2 0-7t1-7q0-41-96-72t-239-32q-150 0-242 32t-92 72q0 3 1 8t0 7q-50-7-83-7-82 0-132 17t-51 40q0 45 50 79t133 34q98 0 151-50 99 81 265 81t265-81q52 50 151 50z m-702 161q0-54-38-92t-92-38-93 38-37 92 37 92 93 38q53 0 91-38t39-92z" horiz-adv-x="1198" />
+
+<glyph glyph-name="cog" unicode="&#xe802;" d="M911 295l-133-56q-8-22-12-31l55-133-79-79-135 53q-9-4-31-12l-55-134-112 0-56 133q-11 4-33 13l-132-55-78 79 53 134q-1 3-4 9t-6 12-4 11l-131 55 0 112 131 56 14 33-54 132 78 79 133-54q22 9 33 13l55 132 112 0 56-132q14-5 31-13l133 55 80-79-54-135q6-12 12-30l133-56 0-112z m-447-111q69 0 118 48t49 118-49 119-118 50-119-50-49-119 49-118 119-48z" horiz-adv-x="928" />
+
+<glyph glyph-name="binoculars" unicode="&#xf1e5;" d="M393 671v-428q0-15-11-25t-25-11v-321q0-15-10-25t-26-11h-285q-15 0-25 11t-11 25v285l139 488q4 12 17 12h237z m178 0v-392h-142v392h142z m429-500v-285q0-15-11-25t-25-11h-285q-15 0-25 11t-11 25v321q-15 0-25 11t-11 25v428h237q13 0 17-12z m-589 661v-125h-197v125q0 8 5 13t13 5h161q8 0 13-5t5-13z m375 0v-125h-197v125q0 8 5 13t13 5h161q8 0 13-5t5-13z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

@@ -1,0 +1,28 @@
+[{
+  "id": 1,
+  "priority": 1,
+  "action": {
+    "type": "modifyHeaders",
+    "responseHeaders": [
+      {"header": "x-frame-options", "operation": "remove"},
+      {"header": "frame-options", "operation": "remove"}
+    ]
+  },
+  "condition": {
+    "urlFilter": "||weather.com.cn",
+    "resourceTypes": ["sub_frame", "xmlhttprequest"]
+  }
+}, {
+  "id": 2,
+  "priority": 1,
+  "action": {
+    "type": "modifyHeaders",
+    "requestHeaders": [
+      {"header": "referer", "operation": "set", "value": "http://www.weather.com.cn/forecast/"}
+    ]
+  },
+  "condition": {
+    "urlFilter": "https://api.map.baidu.com/reverse_geocoding/v3/?ak=EWiNRdx8w37rGxh1t6O6BtI10fkM6pGG&output=json&coordtype=wgs84ll&location=22.556836924757295,%20114.02328665166058",
+    "resourceTypes": ["xmlhttprequest"]
+  }
+}]

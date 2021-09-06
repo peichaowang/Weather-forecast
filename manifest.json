@@ -1,0 +1,43 @@
+{
+   "action": {
+      "default_popup": "data/popup/index.html",
+      "default_title": "To get badge notification, open popup -> Find location -> Press 'View Full Forecast'"
+   },
+   "background": {
+      "service_worker": "worker.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "data/inject/clean.js", "data/inject/observe.js" ],
+      "matches": [ "*://www.weather.com.cn/forecast/*" ],
+      "run_at": "document_start"
+   } ],
+   "declarative_net_request": {
+      "rule_resources": [ {
+         "enabled": true,
+         "id": "ruleset",
+         "path": "rules.json"
+      } ]
+   },
+   "description": "Provides local and long range weather forecast using Weather Underground",
+   "homepage_url": "http://www.weather.com.cn/forecast/",
+   "host_permissions": [ "*://www.weather.com.cn/forecast/*", "*://api.map.baidu.com/*" ],
+   "icons": {
+      "128": "data/icons/128.png",
+      "16": "data/icons/16.png",
+      "24": "data/icons/24.png",
+      "256": "data/icons/256.png",
+      "32": "data/icons/32.png",
+      "48": "data/icons/48.png",
+      "64": "data/icons/64.png"
+   },
+   "manifest_version": 3,
+   "minimum_chrome_version": "92",
+   "name": "天气预报",
+   "options_ui": {
+      "page": "data/options/index.html"
+   },
+   "permissions": [ "declarativeNetRequest", "storage", "alarms", "idle", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.0"
+}
